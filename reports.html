@@ -22,7 +22,7 @@
         </div>
     </nav>
 
-    <main class="flex flex-col gap-6 items-center w-full mt-16 px-24">
+    <main class="flex flex-col gap-6 items-center w-full mt-16 sm:px-24 px-1">
         <div class="flex flex-wrap w-full gap-6 justify-center md:justify-between pb-4 border-b-2 border-gray-300 items-center">
             <div class="flex items-center gap-4">
                 <svg xmlns="http://www.w3.org/2000/svg" width="52" height="52" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="10" cy="7" r="4"/><path d="M10.3 15H7a4 4 0 0 0-4 4v2"/><circle cx="17" cy="17" r="3"/><path d="m21 21l-1.9-1.9"/></g></svg>
@@ -50,6 +50,18 @@
             <button><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 20 20"><path fill="currentColor" d="m12 12l8-8V0H0v4l8 8v8l4-4v-4z"/></svg></button>
         </div>
         <div id="vacation-request-card-container" class="flex flex-wrap justify-around gap-4 w-full p-4"></div>
+        </div>
+        <div class="w-full mb-4 flex justify-center">
+            <div class="w-fit flex gap-2 p-2 h-fit bg-gray-200 rounded-full items-center">
+                <span class="hover:cursor-pointer"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 14 14"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M10.15.5L4 6.65a.48.48 0 0 0 0 .7l6.15 6.15"/></svg></span>
+                <!-- <input class="hidden" type="radio" name="page" checked id="input-1"/> -->
+                <label class="hover:cursor-pointer w-6 h-6 bg-white text-center flex items-center justify-center rounded-full text-sm" for="input-1">1</label>
+                <!-- <input class="hidden" type="radio" name="page" id="input-2"/> -->
+                <label class="hover:cursor-pointer w-6 h-6 text-center flex items-center justify-center rounded-full text-sm" for="input-2">2</label>
+                <!-- <input class="hidden" type="radio" name="page" id="input-3"/> -->
+                <label class="hover:cursor-pointer w-6 h-6 text-center flex items-center justify-center rounded-full text-sm" for="input-3">3</label>
+                <span class="rotate-180 hover:cursor-pointer"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 14 14"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M10.15.5L4 6.65a.48.48 0 0 0 0 .7l6.15 6.15"/></svg></span>
+            </div>
         </div>
     </main>
 </body>
